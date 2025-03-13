@@ -5,7 +5,7 @@ from langchain_groq import ChatGroq
 #from langchain.chat_models import ChatOpenAI
 from langchain.docstore.document import Document
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.chains.summarize import load_summarize_chain
+from langchain.chains.summarize import load_summarize_chain 
 
 # Page title
 st.set_page_config(page_title='PragyanAI-Text SummarizationApp')
